@@ -1,0 +1,38 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:azure;
+    margin: 0;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 1px 2px 3px blue;
+}
+.menu-section{
+background-color: aquamarine;
+margin: 30px auto;
+padding: 20px;
+width: 60%;
+box-shadow: 2px 2px 8px aqua;
+border-radius: 10px;
+}
+.menu-section h2{
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    color: black;
+}
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px dotted ;
+}
+.menu-item:last-child{
+    border-bottom: none;
+}
+.item-name{
+    font-weight: bold;
+}
